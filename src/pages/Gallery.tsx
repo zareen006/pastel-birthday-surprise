@@ -14,26 +14,26 @@ interface Memory {
 const memories: Memory[] = [
   {
     id: 1,
-    image: 'https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=400&h=400&fit=crop',
-    caption: "That amazing road trip where we got lost but found the best sunset! 🌅",
+    image: '/PIC1.jpg',
+    caption: "PS: You’ll always be a noob 😜",
     color: 'from-blush to-lavender',
   },
   {
     id: 2,
-    image: 'https://images.unsplash.com/photo-1543807535-eceef0bc6599?w=400&h=400&fit=crop',
-    caption: "Coffee dates and endless conversations - our favorite tradition! ☕",
+    image: '/PIC3.jpg',
+    caption: "Cheers! 🎂",
     color: 'from-lavender to-mint',
   },
   {
     id: 3,
-    image: 'https://images.unsplash.com/photo-1516939884455-1445c8652f83?w=400&h=400&fit=crop',
-    caption: "Dancing like nobody's watching at the summer festival! 💃",
+    image: '/PIC2.jpg',
+    caption: "You know, you're a fox!! (DUMBB ONE) 🦊",
     color: 'from-mint to-peach',
   },
   {
     id: 4,
-    image: 'https://images.unsplash.com/photo-1532635241-17e820acc59f?w=400&h=400&fit=crop',
-    caption: "Beach days and making memories that last forever! 🏖️",
+    image: '/pic4.jpg',
+    caption: "Enjoy Your E-Cake! 🍰🤭",
     color: 'from-peach to-blush',
   },
 ];
@@ -52,13 +52,13 @@ const Gallery = () => {
           className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4 animate-fade-in-up opacity-0"
           style={{ animationDelay: '0.2s' }}
         >
-          Our Memories 📸
+          HIHIHIHI😁
         </h1>
         <p 
           className="text-lg text-muted-foreground animate-fade-in-up opacity-0"
           style={{ animationDelay: '0.4s' }}
         >
-          Click on each photo to relive the moment
+          Click on every picture to feel the pictures🎉
         </p>
       </div>
 
@@ -100,10 +100,10 @@ const Gallery = () => {
       >
         <Heart className="w-10 h-10 mx-auto text-primary mb-4" fill="currentColor" />
         <p className="text-lg md:text-xl text-foreground font-medium mb-2">
-          Here's to more memories together!
+          Let’s make even more unforgettable nicknames! ✨
         </p>
         <p className="text-muted-foreground">
-          May this year bring us countless more adventures and joyful moments to cherish. 💕
+          May this year be packed with laughter, adventures, and memories to cherish! 🥳
         </p>
       </div>
 

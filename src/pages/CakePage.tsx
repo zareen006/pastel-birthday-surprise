@@ -38,7 +38,7 @@ const CakePage = () => {
           className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4 animate-fade-in-up opacity-0"
           style={{ animationDelay: '0.2s' }}
         >
-          Make a Wish! ✨
+          A Wish Awaits ✨
         </h1>
 
         <p 
@@ -46,8 +46,8 @@ const CakePage = () => {
           style={{ animationDelay: '0.4s' }}
         >
           {candleLit 
-            ? "Close your eyes, make a wish, and blow out the candle!"
-            : "Your wish has been sent to the universe! 🌟"
+            ? "Close your eyes, make a wish, and let the candle fade!! 🕯️"
+            : "Wish sent! The universe is listening 💫"
           }
         </p>
 
@@ -72,7 +72,7 @@ const CakePage = () => {
               className="group"
             >
               <Wind className="w-5 h-5 group-hover:animate-pulse" />
-              Blow Candle
+              Blow the Candle ✨
             </Button>
           ) : (
             <Button
@@ -82,7 +82,7 @@ const CakePage = () => {
               className="group"
             >
               <Image className="w-5 h-5 group-hover:animate-bounce" />
-              See Memories
+              Open This
             </Button>
           )}
         </div>
@@ -91,7 +91,7 @@ const CakePage = () => {
           <p 
             className="mt-6 text-primary font-semibold animate-fade-in-up"
           >
-            🎂 Happy Birthday, Sarah! 🎂
+            Happiest Birthday, Foky!! 🦊🎂
           </p>
         )}
       </div>

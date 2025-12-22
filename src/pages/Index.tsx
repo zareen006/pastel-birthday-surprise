@@ -35,21 +35,21 @@ const Index = () => {
           className="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-foreground mb-6 animate-fade-in-up opacity-0 text-shadow-soft leading-tight"
           style={{ animationDelay: '0.4s' }}
         >
-          HAPPY BIRTHDAY
+          HAPPIEST BIRTHDAY
         </h1>
         
         <h2 
           className="font-display text-4xl md:text-5xl lg:text-6xl font-semibold text-primary mb-8 animate-fade-in-up opacity-0"
           style={{ animationDelay: '0.6s' }}
         >
-          Sarah! 🎂
+          FOKY! 🎂
         </h2>
 
         <p 
           className="text-lg md:text-xl text-muted-foreground mb-12 animate-fade-in-up opacity-0 max-w-md mx-auto"
           style={{ animationDelay: '0.8s' }}
         >
-          Today is all about celebrating the wonderful person you are!
+          It’s your day—time to celebrate you!
         </p>
 
         <div 
@@ -63,7 +63,7 @@ const Index = () => {
             className="group"
           >
             <Gift className="w-5 h-5 group-hover:animate-bounce" />
-            Open Your Surprise
+            Surprise Inside! 🎉
           </Button>
         </div>
       </div>

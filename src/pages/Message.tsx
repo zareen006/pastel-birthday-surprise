@@ -39,9 +39,9 @@ const Message = () => {
             <Heart className="w-10 h-10 text-foreground" fill="currentColor" />
           </div>
           <h1 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-2">
-            A Special Message
+           A Message from Me🤭
           </h1>
-          <p className="text-muted-foreground">Just for you, Sarah</p>
+          <p className="text-muted-foreground">This one’s for you 🌟, Foky!!</p>
         </div>
 
         {/* Hidden/Revealed message */}
@@ -53,22 +53,22 @@ const Message = () => {
             >
               <EyeOff className="w-12 h-12 mx-auto text-muted-foreground mb-4" />
               <p className="text-muted-foreground italic">
-                Click to reveal your special message...
+                Tap to reveal your message
               </p>
             </div>
           ) : (
             <div className="animate-fade-in-up">
               <p className="text-lg md:text-xl text-foreground leading-relaxed mb-6">
-                "Happy Birthday, dear Sarah! 🎉
+                Wish you a Happiest Birthday, Foxy!! 🎉
               </p>
               <p className="text-lg md:text-xl text-foreground leading-relaxed mb-6">
-                You light up every room you walk into, and your kindness touches everyone around you. Thank you for being such an amazing friend who always knows how to make people smile.
+                You make the world sweeter just by being in it.💫 Your kindness, joy, and love are truly one of a kind!!
               </p>
               <p className="text-lg md:text-xl text-foreground leading-relaxed mb-6">
-                May this year bring you endless joy, laughter, and all the wonderful things you deserve. Here's to celebrating YOU today! 💕"
+                May this year overflow with happiness, laughter, and all the wonderful moments you deserve. Today, we celebrate YOU! 🎉
               </p>
               <p className="text-primary font-semibold text-lg">
-                — With love, Your Friends
+                ~ With Healthy Wishes, ME!! 🐰
               </p>
             </div>
           )}
@@ -84,7 +84,7 @@ const Message = () => {
               className="group"
             >
               <Eye className="w-5 h-5" />
-              Reveal Message
+              Unwrap Your Birthday Note
             </Button>
           ) : (
             <Button
@@ -94,7 +94,7 @@ const Message = () => {
               className="group"
             >
               <Cake className="w-5 h-5 group-hover:animate-bounce" />
-              Cut the Cake
+              Time to Cut the Cake!! 🍰
             </Button>
           )}
         </div>
