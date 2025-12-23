@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import Message from "./pages/Message";
 import CakePage from "./pages/CakePage";
 import Gallery from "./pages/Gallery";
+import Share from "./pages/Share";      // ✅ ADD THIS
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -23,6 +24,7 @@ const App = () => (
         <Route path="/message" element={<Message />} />
         <Route path="/cake" element={<CakePage />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/share" element={<Share />} />   {/* ✅ ADD THIS */}
         <Route path="*" element={<NotFound />} />
       </Routes>
     </TooltipProvider>
