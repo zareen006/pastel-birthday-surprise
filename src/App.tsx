@@ -19,15 +19,10 @@ const App = () => (
       <Sonner />
 
       <Routes>
-        {/* HOME */}
-        <Route index element={<Index />} />
-
-        {/* PAGES */}
-        <Route path="message" element={<Message />} />
-        <Route path="cake" element={<CakePage />} />
-        <Route path="gallery" element={<Gallery />} />
-
-        {/* 404 */}
+        <Route path="/" element={<Index />} />
+        <Route path="/message" element={<Message />} />
+        <Route path="/cake" element={<CakePage />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </TooltipProvider>
