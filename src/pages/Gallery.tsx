@@ -26,13 +26,13 @@ const memories: Memory[] = [
   },
   {
     id: 2,
-    image: pic3,
+    image: pic2,
     caption: "Cheers! 🎂",
     color: "from-lavender to-mint",
   },
   {
     id: 3,
-    image: pic2,
+    image: pic3,
     caption: "You know, you're a fox!! (DUMBB ONE) 🦊",
     color: "from-mint to-peach",
   },
